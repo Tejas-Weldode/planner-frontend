@@ -53,18 +53,18 @@ export default function Home() {
                         efficiently.
                     </p>
                     <div className="my-2">
-                        <a
-                            href="/login"
+                        <Link
+                            to="/login"
                             className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-75"
                         >
                             Login
-                        </a>
-                        <a
-                            href="/signup"
+                        </Link>
+                        <Link
+                            to="/signup"
                             className="inline-block ml-4 px-6 py-3 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-75"
                         >
                             Sign Up
-                        </a>
+                        </Link>
                     </div>
                 </div>
             )}
